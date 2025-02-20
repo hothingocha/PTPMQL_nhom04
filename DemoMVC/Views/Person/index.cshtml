@@ -1,8 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<form asp-action="Index">
+<h1>Dữ liệu từ Controller gửi về là: @ViewBag.ìnoPerson</h1>
+<form asp-action="index">
+    <label>Nhập PersonId</label>
+    <input type="text" name="PersonId">
     <label>Nhập họ tên:</label>
     <input type="text" name="Fullname">
     <label>Nhập địa chỉ:</label>
@@ -10,4 +9,3 @@
     <input type="submit" value="Gửi dữ liệu">
 </form>
 
-<h1>@ViewBag.Message</h1>
