@@ -16,6 +16,6 @@ namespace MvcMovie.Controllers
             ViewBag.infoPerson = strOutput;
             return View();
         }
-
+        
     }
 }
